@@ -1,0 +1,8 @@
+﻿@model MoCTestApp.ViewModels.IndexViewModel
+
+<ul>
+    @foreach (var customer in Model.CustomerList)
+    {
+        <li>@customer.Name</li>
+    }
+</ul>
